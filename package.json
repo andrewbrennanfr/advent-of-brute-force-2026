@@ -1,0 +1,12 @@
+{
+    "name": "advent-of-brute-force-2026",
+    "type": "module",
+    "scripts": {},
+    "devDependencies": {
+        "@tsconfig/strictest": "^2.0.9",
+        "@types/bun": "^1.4.4",
+        "husky": "^9.1.7",
+        "prettier": "^3.10.1",
+        "typescript": "^7.0.2"
+    }
+}
