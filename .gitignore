@@ -1,0 +1,4 @@
+node_modules/
+private/
+src/*/input.txt
+!src/00/input.txt
