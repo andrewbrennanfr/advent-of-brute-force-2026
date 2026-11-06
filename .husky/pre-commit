@@ -1,0 +1,4 @@
+bun check
+bun format
+bun solve
+git add --all
