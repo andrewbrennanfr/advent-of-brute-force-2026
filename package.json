@@ -1,7 +1,13 @@
 {
     "name": "advent-of-brute-force-2026",
     "type": "module",
-    "scripts": {},
+    "scripts": {
+        "check": "tsc -p ./tsconfig.json",
+        "format": "prettier --write ./",
+        "new": "sh -c 'cp -r ./src/00 ./src/$1' --",
+        "solve": "bun test --timeout 0",
+        "start": "bun solve --watch"
+    },
     "devDependencies": {
         "@tsconfig/strictest": "^2.0.9",
         "@types/bun": "^1.4.4",
